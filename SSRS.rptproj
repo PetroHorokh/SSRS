@@ -52,8 +52,8 @@
     <DataSource Include="Clinic.rds" />
   </ItemGroup>
   <ItemGroup>
-    <Report Include="Amount of treatments of doctor.rdl" />
-    <Report Include="Overall spent sum for medicine of illness.rdl" />
+    <Report Include="How much person spent on drugs.rdl" />
+    <Report Include="Spent amount to deal with illness on different treatements.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
